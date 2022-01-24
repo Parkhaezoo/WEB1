@@ -7,6 +7,7 @@
     <title>Selector</title>
 
     <style>
+<<<<<<< HEAD
 
         article { border: 3px solid orange;}
 
@@ -16,11 +17,21 @@
             color: red;
         }
 
+=======
+        /* 하위 선택자  */
+        article section ul {
+            /* (스타일 속성) : (속성값) */
+            color: red;
+        }
+
+
+>>>>>>> 5da748f212b1702e72aa244977124c247019ee17
         /* 자식 선택자  */
         article > section ul {
             color: blue;
         }
 
+<<<<<<< HEAD
         /* 인접 선택자 */
         h1 + h3 {
             color: skyblue;
@@ -29,16 +40,39 @@
 
         /* 형제자매 선택자 */
         article ~ article h2 {
+=======
+
+        /* 인접 선택자 */
+        h1+h3 {
+            color : skyblue;
+            font-size: 30px;
+        }
+
+
+        /* 형제자매 선택자 */
+        article~article h2 {
+>>>>>>> 5da748f212b1702e72aa244977124c247019ee17
             color: white;
             background-color: red;
             padding: 5px;
         }
 
+<<<<<<< HEAD
         /* 형제자매 선택자 */
         /* [형제자매인 선택자]~[스타일적용할 선택자] */
         p ~ span {
             color: orange;
         }
+=======
+
+        /* 형제자매 선택자 */
+        /* [형제자매인 선택자]~[스타일적용할 선택자] */
+        p~span {
+            color: orange;
+        }
+
+
+>>>>>>> 5da748f212b1702e72aa244977124c247019ee17
     </style>
 </head>
 <body>
@@ -49,7 +83,10 @@
             <li>메뉴2</li>
         </ul>
     </header>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5da748f212b1702e72aa244977124c247019ee17
     <article>
         <h1>제목</h1>
         <h3>설명</h3>

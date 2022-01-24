@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 /* TODO: 여기에 작성해보세요 */
+<<<<<<< HEAD
 table.first {
     width: 100%;
     border-collapse: collapse;      /* 이중실선 제거 */
@@ -51,19 +52,33 @@ table.first th,
 table.first td {
     border-left: 1px solid #ccc;
 }
+=======
+
+/* 자식요소 중 홀수인 요소만 선택 */
+/* TODO: 여기에 작성해보세요 */
+
+/* 자식요소 중 짝수인 요소만 선택 */
+/* TODO: 여기에 작성해보세요 */
+
+/* TODO: 여기에 작성해보세요 */
+>>>>>>> 5da748f212b1702e72aa244977124c247019ee17
 
 /* :hover
     마우스가 요소에 올라가있는 상태 */
 /* TODO: 여기에 작성해보세요 */
+<<<<<<< HEAD
 table.first tr:hover {
     background-color: #9d9dff;
     color: white;
 }
+=======
+>>>>>>> 5da748f212b1702e72aa244977124c247019ee17
 
 /* :empty
     내용이 없는 상태
 */
 /* TODO: 여기에 작성해보세요 */
+<<<<<<< HEAD
 p:empty {
     margin: 50px;
 }
@@ -146,5 +161,15 @@ section.part2 div:nth-last-child(2) {
     background-color: mediumslateblue;
 }
 
+=======
+
+/* TODO: 여기에 작성해보세요 */
+
+/* part1 : nth-of-type */
+/* TODO: 여기에 작성해보세요 */
+
+/* part2 : nth-child */
+/* TODO: 여기에 작성해보세요 */
+>>>>>>> 5da748f212b1702e72aa244977124c247019ee17
 
 

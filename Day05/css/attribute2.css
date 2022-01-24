@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+<<<<<<< HEAD
 form label {
     display: inline-block;
     width: 100px;
@@ -35,3 +36,6 @@ input[type^='b']:active {
     border: 1px solid #f3a1a1;
     background-color: #c77a7a;
 }
+=======
+/* TODO: 여기에 작성해보세요 */
+>>>>>>> 5da748f212b1702e72aa244977124c247019ee17
