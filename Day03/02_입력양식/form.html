@@ -60,76 +60,71 @@
 	 			
 	 		- name		:	입력 요소의 이름
 	 		- value		:	입력 요소의 초기값
-	 		-textarea   :   장문의 글을 입력
+	 		
 	 		
 	 
 	  -->
 	 
-	 <!-- TODO -->
+	 <!-- 여기에 작성해보세요:) -->
 	 <form action="login" method="post">
-		 <label for="id">아이디</label>
-		 <input type="text" name="input1"> <br>
+		<label for="id">아이디</label>
+		<input type="text" name="input1"> <br>
 
-		 <label for="id">비밀번호</label>
-		 <input type="password" name="input2"> <br>
+		<label for="id">비밀번호</label>
+		<input type="password" name="input2"> <br>
 
-		 <input type="submit" value="전송">
+		<input type="submit" value="전송">
 	 </form>
-
+	 
 	 <hr>
 	 
-	 <!-- TODO -->
+	 <!-- 여기에 작성해보세요:) -->
 	 <form action="input" method="post">
-        ID          :   <input type="text" name="id" /> <br>
-        PW          :   <input type="password" name="password" /> <br>
-        email       :   <input type="email" name="email" /> <br>
-        url         :   <input type="url" name="url" /> <br>
-        tel         :   <input type="tel" name="tel" /> <br>
-        color       :   <input type="color" name="color" /> <br>
+		ID			:	<input type="text" name="id" /> <br>
+		PW			:	<input type="password" name="password" /> <br>
+		email		:	<input type="email" name="email" /> <br>
+		url			:	<input type="url" name="url" /> <br>
+		tel			:	<input type="tel" name="tel" /> <br>
+		color		:	<input type="color" name="color" /> <br>
 
+		radio(성별)	:
+						<label for="female">여자</label>
+						<input type="radio" name="gender" value="female" id="female"> 
 
-        radio(성별)   :
-                        <label for="female">여자</label>
-                        <input type="radio" name="gender" value="female" id="female"> 
+						<label for="male">남자</label>
+						<input type="radio" name="gender" value="male" id="male"> 
+						<br>
 
+		checkbox(취미) :
+						<label for="exercise">운동</label>
+						<input type="checkbox" name="hobby" value="exercise" id="exercise"> 
 
-                        <label for="male">남자</label>
-                        <input type="radio" name="gender" value="male" id="male"> 
-                        <br>
+						<label for="movie">영화감상</label>
+						<input type="checkbox" name="hobby" value="movie" id="movie"> 
 
+						<label for="book">독서</label>
+						<input type="checkbox" name="hobby" value="book" id="book"> 
+						<br>
 
-        checkbox(취미) :
-                        <label for="exercise">운동</label>
-                        <input type="checkbox" name="hobby" value="exercise" id="exercise"> 
+		date				:	<input type="date" name="date"> <br>
+		month				:	<input type="month" name="month"> <br>
+		time				:	<input type="time" name="time"> <br>
+		datetime-local		:	<input type="datetime-local" name="datetime-local"> <br>
+		<br>
 
+		number				: <input type="number" name="number" min="1" max="100" step="1"> <br>
+		range				: <input type="range" name="range" min="1" max="100" step="1"> <br>
+		<br>
 
-                        <label for="movie">영화감상</label>
-                        <input type="checkbox" name="hobby" value="movie" id="movie"> 
-
-
-                        <label for="book">독서</label>
-                        <input type="checkbox" name="hobby" value="book" id="book"> 
-                        <br>
-
-
-        date                :   <input type="date" name="date"> <br>
-        month               :   <input type="month" name="month"> <br>
-        time                :   <input type="time" name="time"> <br>
-        datetime-local      :   <input type="datetime-local" name="datetime-local"> <br>
-        <br>
-
-
-        number              : <input type="number" name="number" min="1" max="100" step="1"> <br>
-        range               : <input type="range" name="range" min="1" max="100" step="1"> <br>
-        <br>
 
 		<textarea name="content" cols="30" rows="10"></textarea>
+		<br>
+		
+		<input type="reset" value="다시작성">
+		<input type="submit" value="제출">
 
-        <input type="reset" value="다시작성">
-        <input type="submit" value="제출">
-
-
-     </form>
+	 </form>
+	
 	 
 	 
 </body>
