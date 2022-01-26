@@ -1,0 +1,34 @@
+
+* { margin: 0; padding: 0; text-align: center; }
+
+.box {
+    height: 200px;
+    margin: 50px;
+}
+
+.bottom { /* TODO */ }
+.top { /* TODO */ }
+.left { /* TODO */ }
+.right { /* TODO */ }
+
+.instar {
+    width: 600px;
+    height: 600px;
+    margin: 50px auto;
+}
+
+.top-left { 
+    /* TODO */
+}
+
+.top-right {
+    /* TODO */
+}
+
+.bottom-left {
+    /* TODO */
+}
+
+.bottom-right {
+    /* TODO */
+}
