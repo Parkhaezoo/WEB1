@@ -7,6 +7,7 @@
 }
 
 .simple {
+<<<<<<< HEAD
     background-image: 
     conic-gradient(red, yellow, green, blue, black);
 }
@@ -30,4 +31,20 @@
 
 .position {
      background-image: conic-gradient(at 70% 75%, red, yellow, green);
+=======
+    /* TODO */
+}
+.degree {
+   /* TODO */
+}
+.pie {
+    /* TODO */
+}
+.pie2 {
+    /* TODO */
+}
+
+.position {
+   /* TODO */
+>>>>>>> 7f343dd705a27b895c5e5cb647e4658d35c08e66
 }

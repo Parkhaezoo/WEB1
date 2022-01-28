@@ -4,6 +4,10 @@
     전체 선택자를 이용. 모든 선택자의 margin과 padding을 0으로 지정
     : 요소가 갖는 기본 여백을 제거
  */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7f343dd705a27b895c5e5cb647e4658d35c08e66
 * { margin: 0; padding: 0; }
 body { background-color:  cornflowerblue; }
 
@@ -51,6 +55,8 @@ footer {
     padding: 20px;
     text-align: center;
 }
+<<<<<<< HEAD
+=======
 
 /* 클래스 선택자 */
 .container {
@@ -68,3 +74,28 @@ h1.logo {
     text-indent: -9999px;
     margin-left: 20px;
 }
+=======
+/* TODO: 여기에 작성해보세요 */
+>>>>>>> 7f343dd705a27b895c5e5cb647e4658d35c08e66
+
+/* 클래스 선택자 */
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+/* 종속선택자 */
+<<<<<<< HEAD
+h1.logo {
+    background: url(../img/logo.png) no-repeat center left;
+    background-size: cover;
+    width: 220px;
+    height: 70px;
+    text-indent: -9999px;
+    margin-left: 20px;
+}
+=======
+/* TODO: 여기에 작성해보세요 */
+>>>>>>> 5da748f212b1702e72aa244977124c247019ee17
+>>>>>>> 7f343dd705a27b895c5e5cb647e4658d35c08e66

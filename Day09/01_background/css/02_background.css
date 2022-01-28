@@ -10,12 +10,18 @@
 
 /* background-image */
 .back1 { 
+<<<<<<< HEAD
     /* 여기에 작성해보세요:) */
 
+=======
+    /* TODO */
+    background-image: url(../img/Star.png);
+>>>>>>> 7f343dd705a27b895c5e5cb647e4658d35c08e66
 }
 
 /* background-size, background-repeat */
 .back2 {
+<<<<<<< HEAD
     /* 여기에 작성해보세요:) */
 }
 
@@ -25,10 +31,32 @@
 
 .back4 {
     /* 여기에 작성해보세요:) */
+=======
+    /* TODO */
+    background-size: 190px;
+    background-image: url(../img/Star.png);
+    background-size: 200px 190px;
+    background-repeat: repeat-x;
+}
+
+.back3 {
+   /* TODO */
+   min-height: 600px;
+   background-image: url(../img/Star.png);
+   background-size: 200px;
+   background-repeat: repeat-y;
+}
+
+.back4 {
+    /* TODO */
+    background-image: url(../img/Star.png);
+    background-repeat: no-repeat;
+>>>>>>> 7f343dd705a27b895c5e5cb647e4658d35c08e66
 }
 
 /* background-position */
 .left {
+<<<<<<< HEAD
     /* 여기에 작성해보세요:) */
 }
 
@@ -72,6 +100,74 @@ body {
     background-position: top left;
     background-repeat: no-repeat;
     background-attachment: fixed;
+=======
+    /* TODO */
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.center {
+    /* TODO */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.right {
+    /* TODO */
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.top-left {
+    /* 수직 수평 */
+    background-size: 200px 190px;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.top-right {
+    /* 수직 수평 */
+    background-size: 200px 190px;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.bottom-left {
+    /* 수직 수평 */
+    background-size: 200px 190px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.bottom-right {
+    /* 수직 수평 */
+    background-size: 200px 190px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.top-center {
+    /* 수직 수평 */
+    background-size: 200px 190px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.center-center {
+    /* 수직 수평 */
+    background-size: 200px 190px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.bottom-center {
+    /* 수직 수평 */
+    background-size: 200px 190px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+body {
+    /* TODO */
+>>>>>>> 7f343dd705a27b895c5e5cb647e4658d35c08e66
 }
 
 .mint {
@@ -88,10 +184,14 @@ body {
 
 */
 .classroom {
+<<<<<<< HEAD
     background-image: url(../img/aloha.png), url(../img/classroom.jpg);
     background-size: contain, cover;
     background-repeat: no-repeat, no-repeat;
     background-position: left, center;
+=======
+    /* TODO */
+>>>>>>> 7f343dd705a27b895c5e5cb647e4658d35c08e66
 }
 
 /* 
@@ -106,8 +206,13 @@ body {
 */
 
 .short {
+<<<<<<< HEAD
     /* image, repeat, attachment, position */
     background: url(../img/aloha.png) no-repeat scroll left bottom,
                 url(../img/classroom.jpg) no-repeat scroll center center;
     background-size: contain, cover;
+=======
+    /* TODO */ 
+    
+>>>>>>> 7f343dd705a27b895c5e5cb647e4658d35c08e66
 }

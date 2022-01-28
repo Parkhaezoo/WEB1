@@ -19,9 +19,10 @@
 		- MIME type	  (파일 형식)	:  video/mp4	video/webm   video/ogg	
 	 -->
 
-	<!-- TODO -->
-	<video src="video/video.mp4"autoplay controls width="1024" height="768">
+	<!-- TODO --> 
+	<video src="video/video.mp4" autoplay controls width="1024" height="768">
 	</video>
+	
 	<hr>
 	
 	 <!-- 
@@ -29,18 +30,19 @@
 	 		: 브라우저 마다 지원하는 비디오 파일 형식에 대한 호환성을 맞춰주기위해
 	 		  여러가지 파일 형식을 동시에 제공하는 태그 
 	  -->
-	<!-- TODO -->
 	<video width="1024" height="768" controls>
-	 <source src="video/video.mp4" type="video/mp4">
-	 <source src="video/video.ogg" type="video/ogg">
-	 <p>사용하시는 브라우저에는 지원되지 않습니다.</p>
+		<source src="video/video.mp4" type="video/mp4">
+		<source src="video/video.ogg" type="video/ogg">
+		<p>사용하시는 브라우저에서는 지원되지 않습니다.</p>
 	</video>
 
 	<hr>
-	
-	<!-- TODO -->
-	<video src="video/video.mp4" controls width="1024" height="768" poster="img/poster.png">
+
+	<video src="video/video.mp4" controls width="1024" height="768"
+		   poster="img/poster.png">
 	</video>
+
+	
 	
 </body>
 </html>
