@@ -1,0 +1,82 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+label#btn {
+    /* 여기에 작성해보세요:) */
+}
+
+input#chk-modal { display: none; }
+
+p {
+    display: inline-block;
+    margin: 27px 25px;
+    line-height: 26px;
+}
+
+a#open-modal {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 50px;
+    border: 1px solid royalblue;
+    background-color: #fff;
+    border-radius: 5px;
+    color: royalblue;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+div#modal-bg {
+    /* 여기에 작성해보세요:) */
+}
+
+
+div#modal {
+    /* 여기에 작성해보세요:) */
+}
+
+div#close {
+    /* 여기에 작성해보세요:) */
+}
+
+span#cross1 {
+    /* 여기에 작성해보세요:) */
+}
+
+span#cross2 {
+    display: inline-block;
+    width: 24px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: white;
+    transform: translate(1px, -24px) rotate(-45deg);
+    transition: 0.2s ease;
+}
+
+input#chk-modal:checked ~ div#modal {
+    /* 여기에 작성해보세요:) */
+}
+
+input#chk-modal:checked ~ div#modal-bg {
+    /* 여기에 작성해보세요:) */
+}
+
+input#chk-modal:checked ~ div#modal-bg div#close {
+    /* 여기에 작성해보세요:) */
+}
+
+a#open-modal:hover {
+    background-color: royalblue;
+    color: white;
+}
+
+div#close:hover {
+    background-color: #fff;
+}
+
+div#close:hover span {
+    background-color: gray;
+}
+
