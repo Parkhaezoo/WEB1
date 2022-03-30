@@ -6,10 +6,25 @@
     margin: 50px;
 }
 
+<<<<<<< HEAD
+.bottom {
+    background-image: linear-gradient(to bottom, yellow, orange, red)
+  }
+.top { 
+    background-image: linear-gradient(to top, yellow, orange, red)
+ }
+.left { 
+    background-image: linear-gradient(to left, yellow, orange, red)
+ }
+.right { 
+    background-image: linear-gradient(to right, yellow, orange, red)
+ }
+=======
 .bottom { /* TODO */ }
 .top { /* TODO */ }
 .left { /* TODO */ }
 .right { /* TODO */ }
+>>>>>>> 7f343dd705a27b895c5e5cb647e4658d35c08e66
 
 .instar {
     width: 600px;
@@ -18,6 +33,21 @@
 }
 
 .top-left { 
+<<<<<<< HEAD
+    background-image: linear-gradient(to top left, #8a3ab9 0%, #cd486b 45%, #fbad50 80%, #fccc63 95%);
+}
+
+.top-right {
+    background-image: linear-gradient(to top right, #8a3ab9 0%, #cd486b 45%, #fbad50 80%, #fccc63 95%);
+}
+
+.bottom-left {
+    background-image: linear-gradient(to bottom left, #8a3ab9 0%, #cd486b 45%, #fbad50 80%, #fccc63 95%);
+}
+
+.bottom-right {
+    background-image: linear-gradient(to bottom right, #8a3ab9 0%, #cd486b 45%, #fbad50 80%, #fccc63 95%);
+=======
     /* TODO */
 }
 
@@ -31,4 +61,5 @@
 
 .bottom-right {
     /* TODO */
+>>>>>>> 7f343dd705a27b895c5e5cb647e4658d35c08e66
 }

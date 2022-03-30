@@ -6,11 +6,28 @@ section.slide {
 }
 
 section.slide ul {
+<<<<<<< HEAD
     /* 여기에 작성해보세요:) */
 }
 
 @keyframes slide {
     /* 여기에 작성해보세요:) */
+=======
+    list-style-type: none;
+    position: absolute;
+    /* 슬라이드 애니메이션 */
+    animation-name: slide;
+    animation-delay: 5s;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+    0% { left: 0; }
+    33% { left: -1400px; }
+    66% { left: -2400px; }
+    100% { left: 0; }
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
 }
 
 section.slide ul li {
@@ -24,4 +41,7 @@ section.slide ul li img {
     width: 100%;
     height: 100%;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b

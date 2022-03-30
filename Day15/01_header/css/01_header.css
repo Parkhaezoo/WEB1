@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 
 * { margin: 0; padding: 0; box-sizing: border-box;}
+=======
+* {margin: 0; padding: 0; box-sizing: border-box;}
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
 
 .wrap {
     width: 1200px;
@@ -23,6 +27,7 @@ header a {
     line-height: 25px;
 }
 
+<<<<<<< HEAD
 header a:hover { 
     background-color: #ddd; color: black;
 }
@@ -32,6 +37,13 @@ header a.active {
 
 /* 메뉴 */
 .header-right { float: right; }
+=======
+header a:hover { background-color: #ddd; color: black; }
+header a.active { background-color: cornflowerblue; color: white; }
+
+/*메뉴 */
+.header-right { float:right }
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
 
 /* clearfix */
 header::after {
@@ -42,10 +54,17 @@ header::after {
 
 section { width: 1200px; height: 300px; padding: 50px; }
 
+<<<<<<< HEAD
 /* 모바일 반응형 : 760px 이하의 디바이스 크기에서 */
 @media screen and (max-width: 760px) {
     
     .wrap, section { width: 100%; }
+=======
+/* 모바일 반응형: 760px 이하의 디바이스 크기에서 */
+@media screen and (max-width: 760px) {
+
+    .wrap, section {width: 100%;}
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
 
     header a {
         float: none;
@@ -57,5 +76,8 @@ section { width: 1200px; height: 300px; padding: 50px; }
 
     .header-right { float: none; }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
 }

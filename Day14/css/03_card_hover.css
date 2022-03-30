@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 * { margin: 0; padding: 0; }
+=======
+* {margin: 0; padding: 0;}
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
 
 .container {
     width: 1200px;
@@ -21,7 +25,11 @@
     animation-duration: 0.5s;
 }
 
+<<<<<<< HEAD
 /* li 에 마우스 올렸을 때, img 를 확대 */
+=======
+/* li 에 마우스를 올렸을 때, img를 확대 */
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
 .card-list li:hover img {
     animation-name: zoom;
     /* 애니메이션 마지막 프레임을 유지 */
@@ -29,7 +37,11 @@
 }
 
 @keyframes zoom {
+<<<<<<< HEAD
     100% { transform: scale(1.2); }
+=======
+    100% {transform: scale(1.2);}
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
 }
 
 .hover-box {
@@ -38,20 +50,33 @@
     left: 0;
     width: 100%;
     height: 100%;
+<<<<<<< HEAD
     background-color: 
         rgba(255,255,255, 0.4);
+=======
+    background-color: rgba(255, 255, 255, 0.4);
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
     opacity: 0;
 }
 
 .hover-box:hover {
     animation-duration: 0.5s;
     animation-name: fadeIn;
+<<<<<<< HEAD
     /* 애니메이션 마지막 프레임을 유지 */
     animation-fill-mode: forwards;
 }
 
 @keyframes fadeIn {
     100% { opacity: 1; }
+=======
+      /* 애니메이션 마지막 프레임을 유지 */
+      animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    100% {opacity: 1;}
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
 }
 
 .hover-box .heart {
@@ -63,6 +88,12 @@
     height: 80px;
 }
 
+<<<<<<< HEAD
 .hover-box .heart:hover img.heart1 { display: none;}
 .hover-box .heart:hover img.heart2 { display: block;}
 .hover-box .heart img.heart2 { display: none; }
+=======
+.hover-box .heart:hover img.heart1 {display: none;}
+.hover-box .heart:hover img.heart2 {display: block;}
+.hover-box .heart img.heart2 {display: none;}
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b

@@ -10,12 +10,28 @@
 
 /* background-image */
 .back1 { 
+<<<<<<< HEAD
+    /* 여기에 작성해보세요:) */
+
+=======
     /* TODO */
     background-image: url(../img/Star.png);
+>>>>>>> 7f343dd705a27b895c5e5cb647e4658d35c08e66
 }
 
 /* background-size, background-repeat */
 .back2 {
+<<<<<<< HEAD
+    /* 여기에 작성해보세요:) */
+}
+
+.back3 {
+   /* 여기에 작성해보세요:) */
+}
+
+.back4 {
+    /* 여기에 작성해보세요:) */
+=======
     /* TODO */
     background-size: 190px;
     background-image: url(../img/Star.png);
@@ -35,10 +51,56 @@
     /* TODO */
     background-image: url(../img/Star.png);
     background-repeat: no-repeat;
+>>>>>>> 7f343dd705a27b895c5e5cb647e4658d35c08e66
 }
 
 /* background-position */
 .left {
+<<<<<<< HEAD
+    /* 여기에 작성해보세요:) */
+}
+
+.center {
+    /* 여기에 작성해보세요:) */
+}
+
+.right {
+    /* 여기에 작성해보세요:) */
+}
+
+.top-left {
+    /* 여기에 작성해보세요:) */  /* 수직 수평 */
+}
+
+.top-right {
+    /* 여기에 작성해보세요:) */  /* 수직 수평 */
+}
+
+.bottom-left {
+    /* 여기에 작성해보세요:) */  /* 수직 수평 */
+}
+
+.bottom-right {
+    /* 여기에 작성해보세요:) */  /* 수직 수평 */
+}
+
+.top-center {
+    /* 여기에 작성해보세요:) */  /* 수직 수평 */
+}
+.center-center {
+    /* 여기에 작성해보세요:) */  /* 수직 수평 */
+}
+.bottom-center {
+    /* 여기에 작성해보세요:) */  /* 수직 수평 */
+}
+
+body {
+    background-image: url(../img/aloha.png);
+    background-size: 200px 190px;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+=======
     /* TODO */
     background-repeat: no-repeat;
     background-position: left;
@@ -105,6 +167,7 @@
 
 body {
     /* TODO */
+>>>>>>> 7f343dd705a27b895c5e5cb647e4658d35c08e66
 }
 
 .mint {
@@ -121,7 +184,14 @@ body {
 
 */
 .classroom {
+<<<<<<< HEAD
+    background-image: url(../img/aloha.png), url(../img/classroom.jpg);
+    background-size: contain, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, center;
+=======
     /* TODO */
+>>>>>>> 7f343dd705a27b895c5e5cb647e4658d35c08e66
 }
 
 /* 
@@ -136,6 +206,13 @@ body {
 */
 
 .short {
+<<<<<<< HEAD
+    /* image, repeat, attachment, position */
+    background: url(../img/aloha.png) no-repeat scroll left bottom,
+                url(../img/classroom.jpg) no-repeat scroll center center;
+    background-size: contain, cover;
+=======
     /* TODO */ 
     
+>>>>>>> 7f343dd705a27b895c5e5cb647e4658d35c08e66
 }

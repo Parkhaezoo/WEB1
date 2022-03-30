@@ -3,8 +3,19 @@
 
 .wrap { position: relative; overflow: hidden; }
 
+<<<<<<< HEAD
 .sidebar {
     /* 여기에 작성해보세요:) */
+=======
+.sidebar {  
+    width: 200px;
+    background-color: #f1f1f1;
+    position: absolute;
+    left: -200px;
+    height: 100%;
+    overflow: auto;
+    transition: all 1s ease-in-out;
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
 }
 
 .sidebar a {
@@ -40,7 +51,11 @@ input[name='category'] {
 
 /* category 를 체크했을 때, 사이드바 슬라이드 */
 input#category:checked ~ .sidebar {
+<<<<<<< HEAD
     /* 여기에 작성해보세요:) */
+=======
+    left: 0;
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
 }
 
 .btn {

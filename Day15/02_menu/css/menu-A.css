@@ -9,10 +9,15 @@
 ul { list-style-type: none; }
 ul li a { text-decoration: none; color: black; }
 
+<<<<<<< HEAD
+=======
+header { position: relative; margin-top: 100px; }
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
 header nav { float: left; height: 50px; text-align: center; }
 header nav .mainmenu { width: 600px; line-height: 60px; }
 /* 1차 메뉴 */
 header nav .mainmenu > li { 
+<<<<<<< HEAD
     width: 25%; float: left; height: 100%;
     color: black; transition: all 0.4s;
 }
@@ -29,3 +34,27 @@ header nav .submenu li {
 header nav .submenu li a { color: black; }
 header nav .submenu li:hover { background-color: cornflowerblue; }
 header nav .submenu li:hover a { color: white; }
+=======
+    width: 25%; /*float: left;*/ height: 100%;
+    color: black; transition: all 0.4s;
+    position: relative;
+}
+
+header nav .mainmenu > li:hover { background-color: royalblue; }
+header nav .mainmenu > li:hover > a { color: white; }
+
+/* 2차 메뉴 (서브 메뉴) */
+header nav .submenu { 
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%; }
+header nav .mainmenu > li:hover .submenu { display: block; }
+header nav .submenu li {
+    background-color: #ddd; transition: all 0.4s;
+}
+header nav .submenu li a { color: black; }
+header nav .submenu li:hover { background-color: cornflowerblue; }
+header nav .submenu li:hover a { color: white }
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b

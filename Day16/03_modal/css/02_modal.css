@@ -5,7 +5,15 @@
 }
 
 label#btn {
+<<<<<<< HEAD
     /* 여기에 작성해보세요:) */
+=======
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
 }
 
 input#chk-modal { display: none; }
@@ -29,11 +37,23 @@ a#open-modal {
 }
 
 div#modal-bg {
+<<<<<<< HEAD
     /* 여기에 작성해보세요:) */
+=======
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    transition-duration: 0.5s;
+    transition-delay: 0.7s;
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
 }
 
 
 div#modal {
+<<<<<<< HEAD
     /* 여기에 작성해보세요:) */
 }
 
@@ -43,6 +63,48 @@ div#close {
 
 span#cross1 {
     /* 여기에 작성해보세요:) */
+=======
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.7);
+    width: 340px;
+    height: 500px;
+    padding: 0;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.4s ease;
+    transition-delay: 0.35s;
+    z-index: 0;
+    opacity: 0;
+}
+
+div#close {
+    position: absolute;
+    top: -10%;
+    right: 4%;
+    width: 45px;
+    height: 32px;
+    border-radius: 4px;
+    border: 2px solid #fff;
+    opacity: 0;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    z-index: 0;
+    padding: 1px 7px;
+}
+
+
+span#cross1 {
+    display: inline-block;
+    width: 24px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: white;
+    transform: translate(1px, -3px) rotate(45deg);
+    transition: 0.2s ease;
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
 }
 
 span#cross2 {
@@ -56,6 +118,7 @@ span#cross2 {
 }
 
 input#chk-modal:checked ~ div#modal {
+<<<<<<< HEAD
     /* 여기에 작성해보세요:) */
 }
 
@@ -65,6 +128,22 @@ input#chk-modal:checked ~ div#modal-bg {
 
 input#chk-modal:checked ~ div#modal-bg div#close {
     /* 여기에 작성해보세요:) */
+=======
+    transform: scale(1.0) translate(-50%, -50%);
+    opacity: 1;
+    z-index: 3;
+}
+
+input#chk-modal:checked ~ div#modal-bg {
+    z-index: 2;
+    opacity: 0.7;
+    background-color: rgba(31,32,41,0.75);
+}
+
+input#chk-modal:checked ~ div#modal-bg div#close {
+    opacity: 1;
+    top: 4%;
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
 }
 
 a#open-modal:hover {

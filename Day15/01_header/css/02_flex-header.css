@@ -16,7 +16,11 @@ header {
 header #gnbLogo {
     width: 240px;
     height: 90px;
+<<<<<<< HEAD
     background: url(../img/logo.png) no-repeat left center;
+=======
+    background: url(../img/Logo.jpg) no-repeat left center;
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
     background-size: auto 90px;
     text-indent: -9999px;
 }
@@ -26,7 +30,11 @@ header #gnbLogo a {
     height: 100%;
 }
 
+<<<<<<< HEAD
 nav ul.gnb { list-style-type:  none; height: 90px; }
+=======
+nav ul.gnb { list-style-type: none; height: 90px; }
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
 nav ul.gnb li {
     display: inline-block;
     height: 90px;
@@ -49,5 +57,9 @@ nav ul.gnb li a:hover {
 }
 
 .category { height: 90px; padding: 35px; box-sizing: border-box; }
+<<<<<<< HEAD
 
 .btn { padding: 10px 40px;  background-color: cornflowerblue; color: white; }
+=======
+.btn { padding: 10px 40px; background-color: cornflowerblue; color: white;}
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b

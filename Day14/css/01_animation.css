@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 * { margin: 0; padding: 0; }
+=======
+*{ margin: 0; padding: 0; }
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
 
 #wrap {
     position: absolute;
@@ -6,7 +10,11 @@
     height: 200px;
     border-radius: 50%;
     background: 
+<<<<<<< HEAD
         linear-gradient(90deg, rgba(216,167,222,1) 0%, rgba(18,70,187,1) 33%, rgba(62,6,165,1) 65%, rgba(0,255,248,1) 100%);
+=======
+        linear-gradient(90deg, rgba(64,0,255,1) 0%, rgba(11,11,103,1) 36%, rgba(138,0,37,1) 100%);
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
     text-align: center;
     /* 애니메이션 */
     animation-name: ball;
@@ -24,16 +32,26 @@
         left: 0;
         transform: rotate(0deg);
     }
+<<<<<<< HEAD
     
     25% {
         left: 250px;
         transform: rotate(180deg);
     }
     
+=======
+
+    25% {
+        left: 250px;
+        transform: rotate(180deg) translateY(-200px);
+    }
+
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
     50% {
         left: 500px;
         transform: rotate(360deg);
     }
+<<<<<<< HEAD
     
     75% {
         left: 250px;
@@ -43,6 +61,17 @@
     /* 종료위치 */
     to {
         left: 0;
+=======
+
+    75% {
+        left: 250;
+        transform: rotate(180deg) translateY(-200px);
+    }
+
+    /* 종료위치 */
+    to {
+        left: 0px;
+>>>>>>> 5c98dce34be29b1fb6671849b61e12b24ef1855b
         transform: rotate(0deg);
     }
 }
